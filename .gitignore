@@ -1,3 +1,5 @@
 #too big
-/Datasets/ph_air_quality_full.csv
-/Datasets/analytical_base_table.csv
+/data/ph_air_quality_full.csv
+/data/analytical_base_table.csv
+
+/.idea
