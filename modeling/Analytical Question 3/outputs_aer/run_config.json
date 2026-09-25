@@ -1,0 +1,26 @@
+{
+  "RESAMPLE": "20min",
+  "N_STEPS": 48,
+  "B_UNITS": 30,
+  "GAMMA": 0.5,
+  "MASK_RATIO": 0.01,
+  "EWMA_SPAN_RATIO": 0.1,
+  "THRESH_SIG": 4.0,
+  "COMBINE": "MULT",
+  "EPOCHS": 5,
+  "USE_FFT_CHANNELS": true,
+  "FFT_KEEP_RATIO": 0.1,
+  "MIN_N_RECORDS": 500,
+  "MIN_COVERAGE_20MIN": 0.3,
+  "RISK_WEIGHTS": {
+    "downtime_ratio": 0.25,
+    "max_continuous_downtime_hours": 0.15,
+    "anomaly_freq": 0.25,
+    "anomaly_days_ratio": 0.15,
+    "mean_anomaly_score": 0.1,
+    "fft_energy": 0.05,
+    "fft_spectral_entropy": 0.05
+  },
+  "n_kept": 67,
+  "n_excluded": 30
+}

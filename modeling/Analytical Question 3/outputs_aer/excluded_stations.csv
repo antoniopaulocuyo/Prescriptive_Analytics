@@ -1,0 +1,31 @@
+station,n_bins,active_bins,coverage,cluster,median_gap_min,irregularity,reason
+313_Cubao,8,64,0.125,C_hourly,60.0,10.8,low_n_records
+ADB Courtyard (Demo),33,6559,0.0050312547644458,A_high_freq,5.58,11.017921146953404,low_n_records
+Ayala MRT,144,631,0.22820919175911253,C_hourly,60.0,2.0,low_n_records
+Bacolod City Araneta-Hernaez Sts,374,1666,0.22448979591836735,C_hourly,60.0,1.0,low_n_records
+Bacolod City San Juan-Gonzaga Sts,107,1552,0.06894329896907217,C_hourly,60.0,18.5,low_n_records
+Binangonan,2355,13156,0.17900577683186378,C_hourly,60.0,1.0,low_coverage
+"Brgy. East Timawa, Molo",204,634,0.3217665615141956,C_hourly,60.0,1.0,low_n_records
+Brgy. Infante,10579,37480,0.2822572038420491,C_hourly,60.0,1.0,low_coverage
+Central Philippine University,15548,54706,0.2842101414835667,C_hourly,60.0,1.0,low_coverage
+DENR Compound Parola,3,7,0.42857142857142855,C_hourly,60.0,1.0,low_n_records
+DLSU Laguna,26,76,0.34210526315789475,C_hourly,60.0,1.0,low_n_records
+"Daet, Camarines Norte (Roadside)",499,5179,0.09635064684301989,C_hourly,60.0,14.0,low_n_records
+"Iloilo City, Augustine Grove Subd.",16228,59119,0.27449720056157917,C_hourly,60.0,1.0,low_coverage
+Lapu-Lapu City,291,3163,0.09200126462219411,A_high_freq,7.55,7.974834437086093,low_n_records
+Las Pinas,6264,24283,0.2579582423917967,C_hourly,60.0,1.0,low_coverage
+Mall of Asia Sensor,432,3109,0.1389514313284014,C_hourly,60.0,2.0,low_n_records
+Manila,17000,60163,0.2825656965244419,C_hourly,60.0,1.0,low_coverage
+Marikina,2,4,0.5,C_hourly,60.0,1.0,low_n_records
+Mariveles Municipal Hall,560,5875,0.09531914893617022,A_high_freq,7.67,10.485006518904825,low_coverage
+Pasay Rotonda,820,7807,0.10503394389650314,C_hourly,60.0,1.0,low_coverage
+Pasay-Taft,4465,33858,0.13187429854096522,A_high_freq,7.5,2.9133333333333336,low_coverage
+Ramon Avancena High School,120,10612,0.011307953260459858,C_hourly,60.0,24.3,low_n_records
+Robinson's Equitable Tower (Indoor),70,208,0.33653846153846156,C_hourly,60.0,1.0,low_n_records
+"San Antonio, Los Banos, Laguna (Residential)",70,208,0.33653846153846156,C_hourly,60.0,1.0,low_n_records
+Sensor 1,13,148,0.08783783783783784,C_hourly,60.0,18.95,low_n_records
+"South Triangle, Quezon City",712,5455,0.1305224564619615,C_hourly,60.0,2.0,low_coverage
+Tagaytay (Neogan 2),874,3769,0.2318917484743964,C_hourly,60.0,1.0,low_coverage
+Timoteo Paez Integrated High School,0,0,0.0,,,,low_n_records
+Valenzuela,5941,24334,0.2441439960549026,C_hourly,60.0,1.0,low_coverage
+pasay city,121,4414,0.027412777526053467,C_hourly,60.0,16.0,low_n_records

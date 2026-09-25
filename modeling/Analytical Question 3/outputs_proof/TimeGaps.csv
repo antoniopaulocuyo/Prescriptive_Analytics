@@ -1,0 +1,97 @@
+station,n_records,median_gap_min,p75_gap_min,p90_gap_min,p95_gap_min,mean_gap_min
+313_Cubao,7,60.0,60.0,396.0,648.0,180.0
+3S Center Bagbaguin,16999,16.98,17.02,17.13,67.98,23.99
+3S Center Paso De Blas,16999,16.98,17.02,17.1,67.97,23.94
+3S Center Ugong,16999,17.57,17.62,17.68,70.3,25.06
+ADB Courtyard (Demo),95,5.58,5.6,5.6,61.48,1380.6
+ASMPH,8999,5.72,5.72,5.8,5.82,7.51
+Along Shaw Blvd.,16999,7.48,7.52,7.58,7.6,11.94
+Anda Circle,13238,7.43,7.47,7.53,59.45,15.88
+Aurora Boulevard (Tramo) - Andrews Avenue,16999,17.12,17.15,17.23,68.5,24.11
+Ayala Ave.,8146,7.58,7.58,7.6,60.37,15.59
+Ayala MRT,143,60.0,60.0,60.0,120.0,88.11
+Bacolod City Araneta-Hernaez Sts,373,60.0,60.0,60.0,60.0,89.28
+Bacolod City San Juan-Gonzaga Sts,106,60.0,270.0,810.0,1110.0,292.64
+Barangay Buli - Concepcion Street,15999,17.15,17.23,17.25,68.6,24.1
+Barangay Fortune - Santan Street,16999,17.03,17.05,17.15,68.12,23.98
+Barangay San Antonio - Parañaque-Sucat Road (Shopwise),16999,16.97,17.0,17.07,67.88,23.89
+Barangay San Rafael Hall,16999,17.33,17.38,17.45,69.37,24.45
+Barangay Tambo - Quirino Avenue,16999,17.1,17.12,17.23,68.4,24.15
+Barangay Tanza 2 Hall,16999,17.35,17.38,17.47,69.43,24.53
+Barangay Tunasan - Maharlika Highway (SM Center Muntinlupa),16999,17.0,17.03,17.17,68.0,23.99
+Bataan Tourism Park,16999,7.58,7.62,7.67,7.78,12.08
+Binangonan,2354,60.0,60.0,60.0,60.0,111.77
+"Bo. Luz Barangay Hall, Limay",16999,7.6,7.62,7.7,7.72,12.08
+Boni Serrano,9228,7.68,7.7,7.72,8.16,19.69
+Bradco Ave. cor Macapagal,16999,7.68,7.72,17.52,17.57,12.75
+Brgy. Ambassador,8823,60.0,60.0,60.0,60.0,65.75
+"Brgy. Benedicto, Jaro, Iloilo",14046,60.0,60.0,60.0,60.0,63.86
+"Brgy. East Timawa, Molo",203,60.0,60.0,60.0,60.0,62.36
+Brgy. Infante,10578,60.0,60.0,60.0,60.0,70.86
+C3 Road (5th Avenue) - Rizal Avenue Extension,16999,17.48,17.53,17.58,69.98,24.94
+Caloocan Sports Complex,16999,17.02,17.05,17.13,68.12,24.02
+Central Philippine University,15547,60.0,60.0,60.0,60.0,70.37
+DENR Compound Parola,2,60.0,60.0,60.0,60.0,60.0
+DLSU Laguna,25,60.0,60.0,60.0,60.0,60.0
+"Daet, Camarines Norte (Roadside)",498,60.0,60.0,60.0,840.0,207.95
+Demo Unit 1,9628,17.15,17.15,17.23,41.49,21.97
+Demo Unit 2,16999,5.58,7.5,7.5,7.6,7.94
+Demo Unit 4,7031,5.72,5.83,5.85,14.58,12.07
+Gen. Luna St. corner Gov. Pascual Ave.,11994,17.45,17.5,17.57,69.88,24.86
+Illumina,6151,60.0,60.0,60.0,60.0,62.07
+"Iloilo City, Augustine Grove Subd.",16227,60.0,60.0,60.0,60.0,72.86
+J.P. Rizal Avenue corner Camia,16999,17.1,17.13,17.2,68.4,24.06
+J.P. Rizal Avenue corner Pertierra,16999,17.12,17.13,17.25,68.47,24.1
+Kalayaan Avenue  - South Avenue Intersection,16999,17.58,17.6,17.68,70.33,25.05
+"Lamao, Limay",16999,7.47,7.5,7.52,7.65,11.92
+Lapu-Lapu City,695,7.55,7.55,7.57,60.21,90.99
+Las Pinas,6263,60.0,60.0,60.0,60.0,77.54
+MNHS AQ Station,15958,17.33,17.37,17.5,69.38,26.18
+Makati Avenue  - Antonio Arnaiz Avenue Intersection,16999,17.13,17.18,17.25,68.57,24.13
+Makati Avenue - Buendia Avenue Intersection,16999,17.07,17.1,17.17,68.3,24.05
+Malabon Action Center,16999,17.17,17.17,17.27,68.65,24.22
+Mall of Asia Sensor,431,60.0,60.0,60.0,120.0,144.22
+Mandaluyong City,16999,7.5,7.52,7.52,7.57,11.77
+Mandaluyong Elementary School,16999,16.97,17.02,17.17,67.92,24.06
+Manila,16999,60.0,60.0,60.0,60.0,70.78
+Manila Observatory,10907,60.0,60.0,60.0,60.0,60.99
+Marikina,1,60.0,60.0,60.0,60.0,60.0
+Marikina Sports Complex,16999,17.5,17.53,17.68,70.02,25.18
+Mariveles Municipal Hall,1090,7.67,7.67,80.28,80.42,107.78
+"Monumento, Caloocan",16999,7.45,7.48,7.53,7.58,11.07
+NASA GSFC Rutgers Calib. N12,16999,17.1,17.12,17.15,68.42,23.79
+"Near Katipunan Ave., Quezon City",16999,7.58,7.6,7.68,7.7,11.2
+Near Puregold Tayuman,12983,7.57,7.62,7.68,60.55,16.19
+Near Sucat Interchange/Exit,16999,7.5,7.52,7.6,7.62,11.92
+North Caloocan Nova Romania - Alora (download airgradient mobile app for realtime data),5008,60.0,60.0,60.0,60.0,60.35
+Old Wack Wack Road corner Shaw Boulevard,16999,16.95,16.95,17.05,67.8,23.84
+Ortigas,15999,12.5,17.43,17.45,17.5,17.9
+Ortigas Avenue-Roosevelt Intersection,16999,17.25,17.28,17.37,69.02,24.31
+Pasay Rotonda,819,60.0,60.0,60.0,60.0,190.62
+Pasay-Taft,10900,7.5,7.5,7.55,21.85,62.12
+Pateros Bridge,16999,17.47,17.5,17.58,69.88,24.84
+Pinya Farm,2396,60.0,60.0,60.0,60.0,60.18
+President Roxas,2765,60.0,60.0,60.0,60.0,61.56
+"Quezon Rd, San Simon",15991,17.67,17.72,17.73,35.33,21.93
+Rajah Sulayman Park,10908,7.6,7.6,7.7,60.72,15.84
+Ramon Avancena High School,119,60.0,60.0,288.0,1458.0,1783.36
+Robinson's Equitable Tower (Indoor),69,60.0,60.0,60.0,60.0,60.0
+STRC,6049,60.0,60.0,60.0,60.0,62.32
+Samal Municipal Hall,16999,7.67,7.67,7.75,7.77,10.67
+"San Antonio, Los Banos, Laguna (Residential)",69,60.0,60.0,60.0,60.0,60.0
+San Juan Mini Park,16999,17.28,17.32,17.38,69.12,24.4
+San Sebastian Residences,13093,7.55,7.6,7.65,60.37,16.05
+Santa Clara - Pasay City General Hospital,16999,17.37,17.4,17.47,69.48,24.46
+Sensor 1,12,60.0,60.0,762.0,1137.0,245.0
+"South Triangle, Quezon City",711,60.0,60.0,60.0,120.0,153.42
+Sta. Ana Hospital,13153,7.48,7.53,7.55,59.88,15.98
+Sto. Rosario Bridge,16999,17.48,17.5,17.58,69.93,24.76
+Tagaytay (Neogan 2),873,60.0,60.0,60.0,60.0,86.32
+Tagaytay (Neogan),2531,60.0,60.0,60.0,60.0,66.02
+Tivoli,2764,60.0,60.0,60.0,60.0,61.65
+Unnamed (DNVBA1576 → AL739RG7),16999,17.3,17.35,17.4,69.23,24.4
+Valenzuela,5940,60.0,60.0,60.0,60.0,81.93
+Valenzuela CENRO (ARCA North),11999,17.05,17.08,17.15,68.18,24.26
+Valle1,2058,60.0,60.0,60.0,60.0,62.33
+World Trade Center,14999,17.77,17.82,17.92,71.12,25.07
+pasay city,120,60.0,60.0,234.0,960.0,735.5
