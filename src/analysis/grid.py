@@ -34,21 +34,28 @@ def attach_province(points: gpd.GeoDataFrame, provinces: gpd.GeoDataFrame,
     """
     Generic spatial join: tags any point GeoDataFrame (candidate grid OR
     population points) with the province it falls in. Points that don't land
-    exactly inside a polygon (e.g. small islands, coastline snapping issues)
-    are matched to their nearest province as a fallback.
+    exactly inside a polygon (e.g. small islands, coastline snapping issues,
+    or points sitting exactly on a shared boundary) are matched to their
+    nearest province as a fallback.
     """
+    original_index = points.index
+
     joined = gpd.sjoin(points, provinces[[cfg.ADMIN2_NAME_FIELD, "geometry"]],
                         how="left", predicate="within")
     joined = joined.rename(columns={cfg.ADMIN2_NAME_FIELD: province_col}).drop(columns=["index_right"])
+    joined = joined[~joined.index.duplicated(keep="first")]
+    joined = joined.reindex(original_index)
 
     missing = joined[province_col].isna()
     if missing.any():
-        nearest = gpd.sjoin_nearest(
-            points.loc[missing, ["geometry"]],
-            provinces[[cfg.ADMIN2_NAME_FIELD, "geometry"]],
-            how="left",
-        )
-        joined.loc[missing, province_col] = nearest[cfg.ADMIN2_NAME_FIELD].to_numpy()
+        points_proj = points.loc[missing, ["geometry"]].to_crs(cfg.CRS_PROJECTED)
+        provinces_proj = provinces[[cfg.ADMIN2_NAME_FIELD, "geometry"]].to_crs(cfg.CRS_PROJECTED)
+
+        nearest = gpd.sjoin_nearest(points_proj, provinces_proj, how="left")
+        nearest = nearest[~nearest.index.duplicated(keep="first")]
+        nearest = nearest.reindex(points_proj.index)
+
+        joined.loc[missing, province_col] = nearest[cfg.ADMIN2_NAME_FIELD]
 
     return joined
 
