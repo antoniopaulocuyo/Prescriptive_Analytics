@@ -42,10 +42,14 @@ def solve_mclp(grid: pd.DataFrame, uncovered_pop: pd.DataFrame, N_j: dict,
     candidate_ids = cand_df["candidate_id"].tolist()
 
     if n_new > len(candidate_ids):
-        raise ValueError(
-            f"Requested {n_new} new stations but only {len(candidate_ids)} "
-            f"candidate sites are available in this subset."
+        print(
+            f"[WARNING] solve_mclp: requested n_new={n_new} but only "
+            f"{len(candidate_ids)} candidate sites are available in this subset "
+            f"-- capping to {len(candidate_ids)}. If this is unexpected, check "
+            f"that province budgets were computed with the correct "
+            f"max_per_province capacity for this eligibility setting."
         )
+        n_new = len(candidate_ids)
 
     prob = pulp.LpProblem("mclp", pulp.LpMaximize)
     x = {i: pulp.LpVariable(f"x_{i}", cat="Binary") for i in candidate_ids}

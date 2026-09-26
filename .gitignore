@@ -4,6 +4,9 @@
 /data/gis/ghsl_built_mosaic_phl.tif
 /data/gis/phl_admin0.shp
 /data/gis/phl_admin2.shp
+/data/.DS_Store
+/data/Group2_ABT.csv
+/src/.DS_Store
 
 
 /.idea

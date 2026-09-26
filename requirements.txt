@@ -15,11 +15,22 @@ pyarrow>=14.0
 scikit-learn>=1.3
 
 # --- Optimization (MILP for Models 1-4) ---
-pulp>=2.7            # free CBC solver, no license needed
+pulp==2.9.0            # free CBC solver, no license needed
 # ortools>=9.8        # optional alternative/faster solver, uncomment if used
 
-# --- Plotting / sanity-check maps ---
+# --- Plotting ---
 matplotlib>=3.8
 
 # --- Utility ---
 tqdm>=4.66
+
+# --- Q3 ---
+scikit-learn
+tensorflow
+scipy
+pyod
+
+# --- Q2 ---
+joblib
+lightgbm
+optuna

@@ -18,11 +18,11 @@ GIS_DIR = DATA_DIR / "gis"
 # Vector boundaries
 ADMIN0_SHP = GIS_DIR / "phl_admin0.shp"
 ADMIN2_SHP = GIS_DIR / "phl_admin2.shp"
-ADMIN2_NAME_FIELD = "adm2_name"  # TODO: confirm this against phl_admin2.dbf columns
+ADMIN2_NAME_FIELD = "adm2_name"
 
 # Population (1km density, ASCII XYZ -> loaded as CSV)
 POP_DENSITY_CSV = GIS_DIR / "phl_pd_2020_1km_UNadj_ASCII_XYZ.csv"
-POP_CSV_COLS = {"lon": "X", "lat": "Y", "density": "Z"}  # TODO: confirm actual header names
+POP_CSV_COLS = {"lon": "X", "lat": "Y", "density": "Z"}
 
 # GHSL Built-up surface tiles (fraction built-up per cell, 3-arcsec ~ 100m, EPSG:4326)
 GHSL_TILES = [
@@ -37,14 +37,14 @@ GHSL_MOSAIC_TIF = GIS_DIR / "ghsl_built_mosaic_phl.tif"  # cached merged output
 
 # Stations
 STATION_LIST_CSV = DATA_DIR / "station_list.csv"
-STATION_LAT_COL = "lat"  # TODO: confirm against station_list.csv header
+STATION_LAT_COL = "lat"
 STATION_LON_COL = "lon"
 
 # Province-level population/area benchmark (for validation + min-station rule)
 PROVINCE_STATS_CSV = DATA_DIR / "Population_LandArea_Density_Province.csv"
 
 # Cached outputs
-ABT_PARQUET = DATA_DIR / "analytical_base_table.parquet"
+ABT_PARQUET = DATA_DIR / "gis_base_table.parquet"
 RESULTS_DIR = DATA_DIR / "results"
 
 # --- CRS -----------------------------------------------------------------
